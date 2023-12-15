@@ -41,4 +41,4 @@ $ npm run dev
 ```
 ## Authors ❤️
 
-- Thank you for your hard work [@Ladvace](https://www.github.com/Ladvace) aka Gianmarco - https://github.com/Ladvace | https://gianmarco.xyz/ 
+- Ported to Nuxt by Me, but Thank you for your hard work [@Ladvace](https://www.github.com/Ladvace) aka Gianmarco - https://github.com/Ladvace | https://gianmarco.xyz/ 
