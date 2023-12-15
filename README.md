@@ -4,19 +4,13 @@
 
 <img width="1320" alt="Screenshot 2023-12-15 alle 15 39 14" src="https://github.com/apdev95/bento-portfolio-nuxt/assets/73004253/37b120e1-6000-435d-bf8c-c65248f495c6">
 
-To view a demo example, **[click here](https://sparkly-speculoos-0c9197.netlify.app/)**
-
-or my portfolio **[click here](https://gianmarco.xyz/)**
+To view a demo example, **[click here](https://andreapuglisi.io/)**
 
 ## Features
 
 - Modern and Minimal bento-like, sleek UI Design
 - All in one page (almost)
 - Fully Responsive
-- Performances and SEO optimizations
-- Ready to be deployed on [Netlify](https://www.netlify.com/)
-- Blog
-- RSS support (your-domain/rss.xml)
 
 ## Tech Stack
 
