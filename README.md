@@ -1,6 +1,6 @@
 # ⚡️nuxt-bento-portfolio
 
-## A personal portfolio website ported from Astro to `Nuxt`.
+## A personal portfolio website ported from Astro to `Nuxt`. Currently is Work in progress, I'm improving the code because I migrated the entire project to nuxt in free time.
 
 <img width="1320" alt="Screenshot 2023-12-15 alle 15 39 14" src="https://github.com/apdev95/bento-portfolio-nuxt/assets/73004253/37b120e1-6000-435d-bf8c-c65248f495c6">
 
