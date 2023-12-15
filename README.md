@@ -41,4 +41,4 @@ $ npm run dev
 ```
 ## Authors ❤️
 
-- Thank you for your hard work @Ladvace aka Gianmarco - https://github.com/Ladvace | https://gianmarco.xyz/ 
+- Thank you for your hard work [@Ladvace](https://www.github.com/Ladvace) aka Gianmarco - https://github.com/Ladvace | https://gianmarco.xyz/ 
