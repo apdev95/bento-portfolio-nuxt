@@ -14,7 +14,7 @@ To view a demo example, **[click here](https://andreapuglisi.io/)**
 
 ## Tech Stack
 
-- [Nuxt/Vue 3](https://vuejs.org/)
+- [Nuxt/Vue 3](https://nuxt.com/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [motion](https://motion.dev/)
 
