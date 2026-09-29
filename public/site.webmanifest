@@ -1,0 +1,21 @@
+{
+  "name": "Andrea Puglisi - Portfolio & AI Solutions Engineer",
+  "short_name": "Andrea Puglisi",
+  "description": "Portfolio of Andrea Puglisi, Full-Stack Developer & AI Solutions Engineer in Italy.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#090a0f",
+  "theme_color": "#e63946",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/me/me10.webp",
+      "sizes": "192x192 512x512",
+      "type": "image/webp"
+    }
+  ]
+}

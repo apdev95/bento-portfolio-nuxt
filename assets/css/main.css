@@ -1,0 +1,180 @@
+@font-face {
+  font-family: "Zodiak";
+  src: url("//cdn.fontshare.com/wf/UDGW4K5KDO2WNP2256GU5CP7HQDVADLQ/LML445TYWQT7TRPDYZPCIVB3BJWX7NTD/2O5TXCJMYUDHI5FO6N4PXN6WNROSBHNU.woff2") format("woff2"),
+       url("//cdn.fontshare.com/wf/UDGW4K5KDO2WNP2256GU5CP7HQDVADLQ/LML445TYWQT7TRPDYZPCIVB3BJWX7NTD/2O5TXCJMYUDHI5FO6N4PXN6WNROSBHNU.woff") format("woff"),
+       url("//cdn.fontshare.com/wf/UDGW4K5KDO2WNP2256GU5CP7HQDVADLQ/LML445TYWQT7TRPDYZPCIVB3BJWX7NTD/2O5TXCJMYUDHI5FO6N4PXN6WNROSBHNU.ttf") format("truetype");
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CabinetGrotesk";
+  src: url("/fonts/CabinetGrotesk-Variable.ttf") format("truetype-variations"),
+       url("/fonts/CabinetGrotesk-Variable.ttf") format("truetype");
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("/fonts/Satoshi-Variable.ttf") format("truetype-variations"),
+       url("/fonts/Satoshi-Variable.ttf") format("truetype");
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+:root {
+  --primary: #e63946;
+  --bg-dark: #111111;
+  --card-bg: #171717;
+  --card-border: #2c2c2c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #0f1015;
+  color: #ffffff;
+  font-family: "Satoshi", sans-serif;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0f1015;
+  background-image: 
+    radial-gradient(at 0% 0%, rgba(230, 57, 70, 0.07) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, rgba(139, 92, 246, 0.06) 0px, transparent 50%),
+    radial-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 24px 24px;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "CabinetGrotesk", "Satoshi", sans-serif;
+  letter-spacing: -0.01em;
+}
+
+p {
+  font-family: "Satoshi", sans-serif;
+}
+
+b, strong {
+  font-weight: 700 !important;
+}
+
+.font-serif {
+  font-family: "Zodiak", serif;
+}
+
+/* Bento Card Style */
+.card, .bento-card {
+  background-color: rgba(23, 23, 23, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 1rem;
+  transition: border-color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.card:hover, .bento-card:hover {
+  border-color: rgba(230, 57, 70, 0.5);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px -10px rgba(0, 0, 0, 0.6), 0 0 20px -5px rgba(230, 57, 70, 0.2);
+}
+
+/* Signature Red Shadow Buttons */
+.custom-btn {
+  box-shadow: 2px 2px #e63946 !important;
+  transition: all 0.15s ease-in-out;
+  border-radius: 0.75rem;
+  background-color: #181920;
+  border: 1px solid #e63946;
+  cursor: pointer;
+}
+
+.custom-btn:hover {
+  background-color: rgba(230, 57, 70, 0.12);
+  color: #ffffff;
+}
+
+.custom-btn:active {
+  box-shadow: 0px 0px #e63946 !important;
+  transform: translate(2px, 2px);
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #e63946, #c52233);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  box-shadow: 2px 2px #ff4d5e;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #f04856, #d92b3c);
+  box-shadow: 3px 3px #ff4d5e;
+}
+
+.vibrate {
+  animation: horizontalTic 2s linear infinite;
+}
+
+@keyframes horizontalTic {
+  0%, 100% { transform: translateX(0); }
+  10% { transform: translateX(-2px); }
+  20% { transform: translateX(2px); }
+  30% { transform: translateX(-2px); }
+  40% { transform: translateX(2px); }
+  50% { transform: translateX(0); }
+  60% { transform: translateX(-2px); }
+  70% { transform: translateX(2px); }
+  80% { transform: translateX(-2px); }
+  90% { transform: translateX(2px); }
+}
+
+#wave {
+  animation: waveAnimation 2s ease-in-out infinite alternate;
+  display: inline-block;
+  transform: rotate(-15deg);
+  transform-origin: 70% 70%;
+  will-change: transform;
+}
+
+@keyframes waveAnimation {
+  0% { transform: rotate(-15deg); }
+  50% { transform: rotate(15deg); }
+  100% { transform: rotate(-15deg); }
+}
+
+.world-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.35;
+  border-radius: 1rem;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0f1015;
+}
+::-webkit-scrollbar-thumb {
+  background: #2c2c2c;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #e63946;
+}
